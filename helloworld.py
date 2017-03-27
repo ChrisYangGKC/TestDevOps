@@ -10,7 +10,7 @@ logging.basicConfig(format=FORMAT, level=logging.INFO)
 
 
 def hello_world():
-	test_data = {'clientip': '192.168.0.23','user': 'Chris Yang','action':'Running', 'build':'2.3.5'}
+	test_data = {'clientip': '192.168.0.29','user': 'Chris Yang','action':'Running', 'build':'2.3.5'}
 	logging.warning('Hello_World_Only', extra=test_data)
 
 
