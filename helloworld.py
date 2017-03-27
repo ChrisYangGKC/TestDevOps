@@ -21,7 +21,7 @@ FORMAT = '[%(asctime)s] clientip=%(clientip)s user=%(user)-8s action=%(action)s 
 logging.basicConfig(format=FORMAT, level=logging.INFO)
 
 
-test_data = {'clientip': '192.168.0.24','user': 'Chris Yang','action':'Running', 'build':'2.3.5'}
+test_data = {'clientip': '192.168.0.26','user': 'Chris Yang','action':'Running', 'build':'2.3.5'}
 
 while(1):
 #	print "[%s]" % time.ctime(),
