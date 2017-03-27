@@ -18,7 +18,7 @@ def hello_world():
 FORMAT = '[%(asctime)s] clientip=%(clientip)s user=%(user)-8s action=%(action)s message=%(message)s build=%(build)s '
 
 
-logging.basicConfig(format=FORMAT, level=logging.DEBUG)
+logging.basicConfig(format=FORMAT, level=logging.INFO)
 
 
 test_data = {'clientip': '192.168.0.26','user': 'Chris Yang','action':'Running', 'build':'2.3.5'}
